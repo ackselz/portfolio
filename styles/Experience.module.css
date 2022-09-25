@@ -1,0 +1,101 @@
+.section {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    border-left: 0.5em solid #ed7966;
+}
+
+.title {
+    color: #ed7966;
+    font-size: 2rem;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: grid;
+    grid-template-areas:
+        "subtitle"
+        "role"
+        "date"
+        "toggle";
+    gap: 1em;
+    padding: 1em 0 0 0;
+    border-top: 0.5em solid #ed7966;
+}
+
+.subtitle {
+    grid-area: subtitle;
+    color: #f5cac2;
+    font-size: 1.5rem;
+}
+
+.role {
+    grid-area: role;
+    font-size: 1.5rem;
+}
+
+.date {
+    grid-area: date;
+    font-style: italic;
+}
+
+.toggle {
+    grid-area: toggle;
+    height: 2em;
+    justify-self: center;
+    filter: invert(100);
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.list li {
+    line-height: 1.25;
+    list-style: disc;
+}
+
+.highlight {
+    color: #ed7966;
+    font-weight: bold;
+}
+
+.list li a {
+    text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+    .card {
+        gap: 1.5em;
+    }
+
+    .header {
+        grid-template-areas:
+            "subtitle toggle"
+            "role toggle"
+            "date toggle";
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .toggle {
+        height: 2.5em;
+        justify-self: end;
+        align-self: center;
+    }
+}

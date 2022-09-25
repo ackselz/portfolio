@@ -1,0 +1,85 @@
+.section {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+    border-left: 0.5em solid #ed7966;
+}
+
+.title {
+    grid-area: title;
+    color: #ed7966;
+    font-size: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-areas:
+        "image"
+        "subtitle"
+        "desc"
+        "link";
+    gap: 1em;
+    padding: 1em 0 0 0;
+    border-top: 0.5em solid #ed7966;
+}
+
+.subtitle {
+    grid-area: subtitle;
+    color: #f5cac2;
+    font-size: 1.5rem;
+}
+
+.card img {
+    grid-area: image;
+    width: 100%;
+}
+
+.desc {
+    line-height: 1.25;
+}
+
+.link {
+    grid-area: link;
+    height: max-content;
+    width: max-content;
+    padding: 1em;
+    background-color: #ed7966;
+    color: black;
+    font-weight: bold;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.link:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 0 white;
+    transform: translate(-2px, -2px);
+}
+
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+}
+
+.stack p {
+    height: max-content;
+    width: max-content;
+    padding: 0.25em;
+    border: 0.125em solid white;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .card {
+        grid-template-areas:
+            "image subtitle"
+            "image desc"
+            "image link"
+            "image stack";
+        grid-template-columns: 1.5fr 1fr;
+        gap: 1em;
+    }
+}

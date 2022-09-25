@@ -1,0 +1,25 @@
+.container {
+    position: fixed;
+    top: 8vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.51em;
+    padding: 0.5em;
+    background-color: white;
+}
+
+.image {
+    height: 2em;
+}
+
+.image:hover {
+    cursor: pointer;
+    background-color: #ed7966;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: none;
+    }
+}
