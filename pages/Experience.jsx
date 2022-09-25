@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Experience.module.css";
 
@@ -31,12 +32,20 @@ const Experience = () => {
                     </h4>
                     <h5 className={styles.role}>Software Engineer Intern</h5>
                     <p className={styles.date}>February 2022 - July 2022</p>
-                    <img
-                        src={a ? "/assets/collapse.svg" : "/assets/expand.svg"}
-                        alt=""
-                        className={styles.toggle}
-                        onClick={toggleA}
-                    />
+                    <div className={styles.toggle}>
+                        <Image
+                            width="48"
+                            height="48"
+                            layout="fixed"
+                            src={
+                                a
+                                    ? "/assets/collapse.svg"
+                                    : "/assets/expand.svg"
+                            }
+                            alt=""
+                            onClick={toggleA}
+                        />
+                    </div>
                 </div>
                 <ul
                     className={styles.list}
@@ -82,12 +91,19 @@ const Experience = () => {
                     </h4>
                     <h5 className={styles.role}>Software Developer</h5>
                     <p className={styles.date}>August 2022 - Present</p>
-                    <img
-                        src={b ? "/assets/collapse.svg" : "/assets/expand.svg"}
-                        alt=""
-                        className={styles.toggle}
-                        onClick={toggleB}
-                    />
+                    <div className={styles.toggle}>
+                        <Image
+                            width="48"
+                            height="48"
+                            src={
+                                b
+                                    ? "/assets/collapse.svg"
+                                    : "/assets/expand.svg"
+                            }
+                            alt=""
+                            onClick={toggleB}
+                        />
+                    </div>
                 </div>
                 <ul
                     className={styles.list}
@@ -121,15 +137,22 @@ const Experience = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.header}>
-                    <h4 className={styles.subtitle}>Makers' Lab</h4>
+                    <h4 className={styles.subtitle}>Makers&apos; Lab</h4>
                     <h5 className={styles.role}>Maker</h5>
                     <p className={styles.date}>August 2022 - Present</p>
-                    <img
-                        src={c ? "/assets/collapse.svg" : "/assets/expand.svg"}
-                        alt=""
-                        className={styles.toggle}
-                        onClick={toggleC}
-                    ></img>
+                    <div className={styles.toggle}>
+                        <Image
+                            width="48"
+                            height="48"
+                            src={
+                                c
+                                    ? "/assets/collapse.svg"
+                                    : "/assets/expand.svg"
+                            }
+                            alt=""
+                            onClick={toggleC}
+                        />
+                    </div>
                 </div>
                 <ul
                     className={styles.list}

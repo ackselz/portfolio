@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "../styles/Hero.module.css";
 
@@ -13,7 +14,7 @@ const Hero = () => {
                 ... and sometimes break things unintentionally too &#x1F613;
             </p>
             <a className={styles.cta}>
-                <img src="/assets/resume.svg" alt="" />
+                <Image height="32" width="32" src="/assets/resume.svg" alt="" />
                 Resume
             </a>
         </section>

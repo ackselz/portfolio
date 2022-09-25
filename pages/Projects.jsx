@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "../styles/Projects.module.css";
 
@@ -6,7 +7,14 @@ const Projects = () => {
         <section className={styles.section}>
             <h3 className={styles.title}>Projects</h3>
             <div className={styles.card}>
-                <img src="/assets/169.png" alt="" />
+                <div className={styles.image}>
+                    <Image
+                        height="90"
+                        width="160"
+                        src="/assets/169.png"
+                        alt=""
+                    />
+                </div>
                 <h4 className={styles.subtitle}>Portfolio Website</h4>
                 <p className={styles.desc}>
                     Portfolio website to share my experience with the world
@@ -19,7 +27,14 @@ const Projects = () => {
                 </div>
             </div>
             <div className={styles.card}>
-                <img src="/assets/169.png" alt="" />
+                <div className={styles.image}>
+                    <Image
+                        height="90"
+                        width="160"
+                        src="/assets/169.png"
+                        alt=""
+                    />
+                </div>
                 <h4 className={styles.subtitle}>one-word-captures</h4>
                 <p className={styles.desc}>
                     An image-sharing social media application
@@ -37,7 +52,14 @@ const Projects = () => {
                 </div>
             </div>
             <div className={styles.card}>
-                <img src="/assets/169.png" alt="" />
+                <div className={styles.image}>
+                    <Image
+                        height="90"
+                        width="160"
+                        src="/assets/169.png"
+                        alt=""
+                    />
+                </div>
                 <h4 className={styles.subtitle}>toDoList</h4>
                 <p className={styles.desc}>
                     A productivity-focused mobile application to track personal

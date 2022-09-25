@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "../styles/Contact.module.css";
 
@@ -8,13 +9,28 @@ const Contact = () => {
             <h4 className={styles.subtitle}>Always open to new connections!</h4>
             <div className={styles.card}>
                 <a href="">
-                    <img src="/assets/github-original.svg" alt="" />
+                    <Image
+                        width="48"
+                        height="48"
+                        src="/assets/github-original.svg"
+                        alt=""
+                    />
                 </a>
                 <a href="">
-                    <img src="/assets/email.svg" alt="" />
+                    <Image
+                        width="48"
+                        height="48"
+                        src="/assets/email.svg"
+                        alt=""
+                    />
                 </a>
                 <a href="">
-                    <img src="/assets/linkedin-plain.svg" alt="" />
+                    <Image
+                        width="48"
+                        height="48"
+                        src="/assets/linkedin-plain.svg"
+                        alt=""
+                    />
                 </a>
             </div>
         </section>

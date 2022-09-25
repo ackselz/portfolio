@@ -32,9 +32,9 @@
     font-size: 1.5rem;
 }
 
-.card img {
+.image {
     grid-area: image;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .desc {

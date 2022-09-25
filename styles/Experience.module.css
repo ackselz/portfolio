@@ -50,7 +50,7 @@
 
 .toggle {
     grid-area: toggle;
-    height: 2em;
+    place-self: center;
     justify-self: center;
     filter: invert(100);
 }
@@ -95,6 +95,7 @@
 
     .toggle {
         height: 2.5em;
+        width: 2.5em;
         justify-self: end;
         align-self: center;
     }
