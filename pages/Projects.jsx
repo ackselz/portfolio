@@ -24,6 +24,7 @@ const Projects = () => {
                     href="https://shaochong.dev"
                     className={styles.link}
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Check it out
                 </a>
@@ -49,6 +50,7 @@ const Projects = () => {
                     href="https://one-word-captures.netlify.app/posts"
                     className={styles.link}
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Check it out
                 </a>
@@ -80,6 +82,7 @@ const Projects = () => {
                     href="https://play.google.com/store/apps/details?id=com.toDoList"
                     className={styles.link}
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Check it out
                 </a>
