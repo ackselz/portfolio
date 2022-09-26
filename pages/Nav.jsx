@@ -14,9 +14,9 @@ const Nav = () => {
                         <a href="#about" className={styles.item}>
                             About
                         </a>
-                        <a href="#skills" className={styles.item}>
+                        {/* <a href="#skills" className={styles.item}>
                             Skills
-                        </a>
+                        </a> */}
                         <a href="#experience" className={styles.item}>
                             Experience
                         </a>
@@ -28,7 +28,11 @@ const Nav = () => {
                         <a href="#contact" className={styles.item}>
                             Contact
                         </a>
-                        <a href="" className={styles.cta}>
+                        <a
+                            className={styles.cta}
+                            download
+                            href="/files/Tan Shao Chong Resume (PDF).pdf"
+                        >
                             Resume
                         </a>
                     </div>

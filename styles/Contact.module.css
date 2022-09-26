@@ -22,7 +22,7 @@
     width: max-content;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 3em;
     justify-content: center;
     align-items: center;
     padding: 1em;
@@ -32,4 +32,8 @@
 .card img {
     height: 3em;
     width: 3em;
+}
+
+.card img:hover {
+    filter: invert(100);
 }

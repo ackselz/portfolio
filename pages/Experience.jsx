@@ -138,7 +138,7 @@ const Experience = () => {
             <div className={styles.card}>
                 <div className={styles.header}>
                     <h4 className={styles.subtitle}>Makers&apos; Lab</h4>
-                    <h5 className={styles.role}>Maker</h5>
+                    <h5 className={styles.role}>Project Lead</h5>
                     <p className={styles.date}>August 2022 - Present</p>
                     <div className={styles.toggle}>
                         <Image
@@ -159,8 +159,20 @@ const Experience = () => {
                     style={{ display: c ? "flex" : "none" }}
                 >
                     <li>
-                        Currently working on building a drone from scratch, stay
-                        tuned for updates!
+                        Leading a team of makers to implement a surveillance and
+                        remote monitoring system for our 3D printers, using{" "}
+                        <span className={styles.highlight}>OctoPrint</span> and{" "}
+                        <span className={styles.highlight}>Raspberry Pis</span>
+                    </li>
+                    <li>
+                        Developing CAD models for camera mounts and housings,
+                        using{" "}
+                        <span className={styles.highlight}>Fusion360</span>
+                    </li>
+                    <li>
+                        Developing a real-time updating system through Telegram
+                        Bots, using{" "}
+                        <span className={styles.highlight}>Telegram APIs</span>
                     </li>
                 </ul>
             </div>

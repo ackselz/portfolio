@@ -9,9 +9,10 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.image}>
                     <Image
-                        height="90"
-                        width="160"
-                        src="/assets/169.png"
+                        height="1733"
+                        width="3024"
+                        layout="responsive"
+                        src="/assets/portfolio.png"
                         alt=""
                     />
                 </div>
@@ -19,7 +20,11 @@ const Projects = () => {
                 <p className={styles.desc}>
                     Portfolio website to share my experience with the world
                 </p>
-                <a href="https://tanshaochong.dev" className={styles.link}>
+                <a
+                    href="https://shaochong.dev"
+                    className={styles.link}
+                    target="_blank"
+                >
                     Check it out
                 </a>
                 <div className={styles.stack}>
@@ -29,9 +34,10 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.image}>
                     <Image
-                        height="90"
-                        width="160"
-                        src="/assets/169.png"
+                        height="825"
+                        width="1314"
+                        layout="responsive"
+                        src="/assets/onewordcaptures.png"
                         alt=""
                     />
                 </div>
@@ -39,7 +45,11 @@ const Projects = () => {
                 <p className={styles.desc}>
                     An image-sharing social media application
                 </p>
-                <a href="" className={styles.link}>
+                <a
+                    href="https://one-word-captures.netlify.app/posts"
+                    className={styles.link}
+                    target="_blank"
+                >
                     Check it out
                 </a>
                 <div className={styles.stack}>
@@ -54,9 +64,10 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.image}>
                     <Image
-                        height="90"
-                        width="160"
-                        src="/assets/169.png"
+                        height="500"
+                        width="1024"
+                        layout="responsive"
+                        src="/assets/todolist.png"
                         alt=""
                     />
                 </div>
@@ -68,6 +79,7 @@ const Projects = () => {
                 <a
                     href="https://play.google.com/store/apps/details?id=com.toDoList"
                     className={styles.link}
+                    target="_blank"
                 >
                     Check it out
                 </a>

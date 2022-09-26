@@ -13,7 +13,11 @@ const Hero = () => {
             <p className={styles.desc}>
                 ... and sometimes break things unintentionally too &#x1F613;
             </p>
-            <a className={styles.cta}>
+            <a
+                className={styles.cta}
+                download
+                href="/files/Tan Shao Chong Resume (PDF).pdf"
+            >
                 <Image height="32" width="32" src="/assets/resume.svg" alt="" />
                 Resume
             </a>

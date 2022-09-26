@@ -28,6 +28,7 @@ export default function Home() {
                 <Projects></Projects>
                 <span id="contact"></span>
                 <Contact></Contact>
+                <div></div>
             </main>
 
             <footer className={styles.footer}>
