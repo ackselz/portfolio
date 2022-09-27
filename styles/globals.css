@@ -7,7 +7,7 @@ a {
     box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;
     }
@@ -15,7 +15,7 @@ a {
         color: white;
         background: black;
     }
-}
+} */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
