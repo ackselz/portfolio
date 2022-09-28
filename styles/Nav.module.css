@@ -41,6 +41,20 @@
     border-bottom: 0.124em solid #ed7966;
 }
 
+.contact {
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    background-color: white;
+    color: #141850;
+    font-weight: bold;
+    transition: box-shadow 0.1s;
+}
+
+.contact:hover {
+    cursor: pointer;
+    box-shadow: 0.25em 0.25em 0 #ed7966;
+}
+
 .cta {
     margin-left: 1em;
     padding: 0.5em 1em;
@@ -52,7 +66,7 @@
 
 .cta:hover {
     cursor: pointer;
-    box-shadow: 0.125em 0.125em 0 white;
+    box-shadow: 0.25em 0.25em 0 white;
 }
 
 @media (max-width: 800px) {

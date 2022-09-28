@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Nav from "./Nav";
+import Skills from "./Skills";
 
 export default function Home() {
     return (
@@ -22,6 +23,8 @@ export default function Home() {
                 <Hero></Hero>
                 <span id="about"></span>
                 <About></About>
+                <span id="skills"></span>
+                <Skills></Skills>
                 <span id="experience"></span>
                 <Experience></Experience>
                 <span id="projects"></span>

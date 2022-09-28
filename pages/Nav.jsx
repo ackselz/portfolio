@@ -14,9 +14,9 @@ const Nav = () => {
                         <a href="#about" className={styles.item}>
                             About
                         </a>
-                        {/* <a href="#skills" className={styles.item}>
+                        <a href="#skills" className={styles.item}>
                             Skills
-                        </a> */}
+                        </a>
                         <a href="#experience" className={styles.item}>
                             Experience
                         </a>
@@ -25,8 +25,8 @@ const Nav = () => {
                         </a>
                     </div>
                     <div className={styles.mobile}>
-                        <a href="#contact" className={styles.item}>
-                            Contact
+                        <a href="#contact" className={styles.contact}>
+                            Get in touch!
                         </a>
                         <a
                             className={styles.cta}

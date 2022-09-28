@@ -1,0 +1,46 @@
+.section {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    border-left: 0.5em solid #ed7966;
+}
+
+.title {
+    color: #ed7966;
+    font-size: 2rem;
+}
+
+.subtitle {
+    grid-area: subtitle;
+    color: #f5cac2;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.language {
+    height: max-content;
+    width: max-content;
+    padding: 1em;
+    border: 0.125em solid white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill {
+    height: max-content;
+    width: max-content;
+    padding: 1em;
+    border: 0.125em solid #ed7966;
+    color: #ed7966;
+    font-weight: bold;
+    text-align: center;
+}
