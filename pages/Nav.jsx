@@ -31,7 +31,7 @@ const Nav = () => {
                         <a
                             className={styles.cta}
                             download
-                            href="/files/Tan Shao Chong Resume (PDF).pdf"
+                            href="/files/Tan Shao Chong Resume (Public).pdf"
                         >
                             Resume
                         </a>
