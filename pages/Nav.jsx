@@ -23,11 +23,11 @@ const Nav = () => {
                         <a href="#projects" className={styles.item}>
                             Projects
                         </a>
-                    </div>
-                    <div className={styles.mobile}>
                         <a href="#contact" className={styles.contact}>
                             Get in touch!
                         </a>
+                    </div>
+                    <div className={styles.mobile}>
                         <a
                             className={styles.cta}
                             download
