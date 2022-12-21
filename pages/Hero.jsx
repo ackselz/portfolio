@@ -16,7 +16,7 @@ const Hero = () => {
             <a
                 className={styles.cta}
                 download
-                href="/files/Tan Shao Chong Resume (PDF).pdf"
+                href="/files/Tan Shao Chong Resume (Public).pdf"
             >
                 <Image height="32" width="32" src="/assets/resume.svg" alt="" />
                 Resume
